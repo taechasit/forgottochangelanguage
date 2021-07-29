@@ -196,7 +196,7 @@ const Header = styled.header`
         content: "";
         border-bottom: solid 3px #a30000;
         transform: scaleX(0);
-        transform-origin: 0% 100%;
+        transform-origin: left;
         transition: transform 250ms ease-in-out;
       }
       :hover {
